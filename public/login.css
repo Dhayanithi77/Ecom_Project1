@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #eee;
+  }
+  .login-container {
+    max-width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    text-align: center;
+  }
+  input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 90%;
+  }
+  button {
+    padding: 10px;
+    width: 100%;
+  }
+  /* Style for Forgot Password button */
+#forgotPassword {
+   position:relative;
+  left: 100px;    /* stick to left */
+  bottom: 0px;  /* stick to bottom */
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+
+  

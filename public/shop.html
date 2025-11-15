@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Store</title> 
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="nav container">
+            <a href="/shop.html" class="logo">Ecommerce Store</a> 
+            <i class='bx bxs-shopping-bag' id="cart-icon" data-quantity="0"></i>
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <div class="cart-content">
+                </div>
+                <div class="total">
+                    <div class="total-title">Total</div>
+                    <div class="total-price">₹0</div> 
+                </div>
+                <button type="button" class="btn-buy">Pay Now</button>
+                
+                <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2> 
+        <div class="shop-content">
+            <div class="product-box">
+                <img src="img/classmate.jpg" alt="NoteBook" class="product-img"> 
+                <h2 class="product-title">NoteBook</h2>
+                <span class="price">50</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/earphone.avif" alt="Earbuds" class="product-img"> 
+                <h2 class="product-title">Earbuds</h2>
+                <span class="price">400</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/silverbottle.jpg" alt="Reusable Water Bottle" class="product-img"> 
+                <h2 class="product-title">Water Bottle</h2> 
+                <span class="price">100</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/bag.jpg" alt="Stylish Backpack" class="product-img"> 
+                <h2 class="product-title">Backpack</h2> 
+                <span class="price">1000</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/writing table.webp" alt="WritingTable" class="product-img"> 
+                <h2 class="product-title">Writing Table</h2> 
+                <span class="price">300</span> 
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/lenonalap.jpg" alt="Lenova Laptop" class="product-img"> 
+                <h2 class="product-title"> Lenova Laptop</h2> 
+                <span class="price">45000</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/apple.jpg" alt="Apple Macbook Laptop" class="product-img"> 
+                <h2 class="product-title">Apple Laptop</h2>
+                <span class="price">200000</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/powerbank.jpg" alt="Portable Power Bank" class="product-img"> 
+                <h2 class="product-title">Power Bank</h2> 
+                <span class="price">500</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                <img src="img/headphone.jpg" alt="Over-Ear Headphones" class="product-img"> 
+                <h2 class="product-title">Headphones</h2> 
+                <span class="price">1500</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+            <div class="product-box">
+                 <img src="img/bag.jpg" alt="College Bag" class="product-img"> 
+                <h2 class="product-title">College Bag</h2>
+                <span class="price">500</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+             <div class="product-box">
+                 <img src="img/iphone.jpeg" alt="iphone" class="product-img"> 
+                <h2 class="product-title">IPhone</h2>
+                <span class="price">80000</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+             <div class="product-box">
+                 <img src="img/samsung img.jpg" alt="iphone" class="product-img"> 
+                <h2 class="product-title">Samaung Phone</h2>
+                <span class="price">20000</span>
+                <i class='bx bxs-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+    <script src="js/cart.js"></script> 
+    <script src="https://js.stripe.com/v3/"></script>
+</body>
+</html>

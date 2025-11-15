@@ -1,0 +1,70 @@
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  background: #eee;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Forgot Password Box */
+.forgot-container {
+  width: 320px;
+  padding: 25px 20px;
+  background: #192a8b;        /* dark blue */
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  color: #fff; /* white text inside */
+}
+
+/* Heading */
+.forgot-container h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+/* Input fields */
+.forgot-container input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  outline: none;
+}
+
+/* Reset Button */
+.forgot-container button {
+  width: 95%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.forgot-container button:hover {
+  background: #0056b3;
+}
+
+/* Forgot Password link (if reused elsewhere) */
+#forgotPassword {
+  display: inline-block;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  color: #ffeb3b;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
